@@ -12,20 +12,30 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
+    border: none;
     
 }
 
 .botaocabeca {
     align-items: end;
-    background-color: darkgreen;
+    background-color: #36B864;
     color: aliceblue;
     width: 150px;
     height: 40px;
     justify-content: space-between;
+    margin-left: 120px;
+    border: none;
+    border-radius: 9px;
+
+}
+
+.botaocabeca :hover {
+    color: rgb(4, 23, 94);
+    
 }
 
 #container-pesquisas {
-    
+
 }
 
 #container-pai {
@@ -36,13 +46,37 @@ header {
 
 .divlogo {
     display: inline-block;
+    margin-left: 30px;
 }
 
 .divbotoes {
+    width: 100%;
     display: flex;
+    padding: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     
+}
+
+.navbotoes :hover {
+    color: #36B864;
+    
+}
+
+.texto00 {
+    margin-bottom: 20px;
+    color: #111d15;
+}
+
+.texto01 {
+    margin-bottom: 20px;
+    color: #111d15;
+    size: 52px;
+}
+
+.texto02 {
+    margin-bottom: 20px;
+    color: #111d15;
 }
 
 .navbotoes a {
@@ -53,34 +87,50 @@ header {
 }
 
 .container-imagem{
-        height: 500px;
-            background-image: url(../background003.jpg);
+            width: 1519px;
+            height: 585px;
+            background-image: url(../background005.jpg);  
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
 }
 
 .secao-1{
-    border: 1px solid rgba(27, 3, 3, 0.474);
+    border: 1px solid rgba(27, 3, 3, 0);
     width: 50%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.429);
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 50px;
+    margin-top: 0px;
+    
+}
+
+.divTela01{
+    align-items: center;
+    
 }
 
 .botao1 {
-    background-color: darkgreen;
+    background-color: #36B864;
     color: azure;
-    width: 250px;
-    height: 40px;
-    padding: 10px 20px;
+    width: 182px;
+    height: 57px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 9px;
+    size: 16px;
 }
 
 .botao2 {
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
-    width: 250px;
-    height: 40px;
-    padding: 10px 20px;
+    width: 290px;
+    height: 57px;
+    color: #000;
+    border-radius: 9px;
+    size: 16px;
+    margin-left: 20px;
+    
 }
 
 h1{
@@ -94,6 +144,11 @@ h3 {
 }
 
 h2{
+    color: rgb(255, 255, 255);
+    font-size: 20px; 
+}
+
+h4{
     color: rgb(255, 255, 255);
     font-size: 20px; 
 }
